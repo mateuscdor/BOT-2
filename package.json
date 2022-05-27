@@ -1,7 +1,7 @@
 {
-    "name": "GataBot-MD",
+    "name": "✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹",
     "version": "1.0.22.1",
-    "description": "Super Bot WhatsApp",
+    "description": "BOT GESTOR DE GRUPOS WHATSAPP",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -14,16 +14,16 @@
         "cli": "node . --optimize_for_size --max_old_space_size=460 index.js",
         "db": "node . --autocleartmp --db 'mongodb+srv://BrunoSobrino:Akhmad6825@cluster0.mflne.mongodb.net/TheMystic-Bot?retryWrites=true&w=majority'"
     },
-    "homepage": "https://github.com/GataNina-Li",
+    "homepage": "https://github.com/WHATSAPP-VIP",
     "author": {
         "name": "GataNina-Li"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/GataNina-Li/GataBot-MD.git"
+        "url": "git+https://github.com/WHATSAPP-VIP/BOT.git"
     },
     "bugs": {
-        "url": "https://github.com/GataNina-Li/GataBot-MD/issues"
+        "url": "https://github.com/WHATSAPP-VIP/BOT/issues"
     },
     "license": "MIT",
     "dependencies": {
