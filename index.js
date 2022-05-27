@@ -1,4 +1,4 @@
-console.log('Iniciando | Starting 🚀🚀🚀')
+console.log('Iniciando | BOT GESTOR 🚀 🚀 🚀')
 
 import { join, dirname } from 'path'
 import { createRequire } from "module";
@@ -16,12 +16,12 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Gata\nBot\nMD', {
+say('OWNER\nVIP\n✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-say(`Por Gata Dios`, {
+say(`Desarrollador GHOST`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
