@@ -8,7 +8,7 @@
 <p align="center">
 </p>
 <a href="#"><img title="OWNER : GHOST" src="https://img.shields.io/badge/ES NECESARIO QUE LEA TODO EL README-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge"></a>
------
+
 
 ### INSTALACION ACCESO VIP :
 ```
