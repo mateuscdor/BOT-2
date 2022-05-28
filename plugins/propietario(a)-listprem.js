@@ -7,7 +7,7 @@ await conn.reply(m.chat, `*╭━[ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 𝙑𝙄𝙋
   let text = `𝙌𝙐𝙀 𝙋𝙍𝙊!! 😼 𝙏𝙃𝙀𝙔 𝘼𝙍𝙀 𝙂𝙍𝙀𝘼𝙏!! ✨`.trim()   
 await conn.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨',
+title: ' •𝗢𝗪𝗡𝗘𝗥 | ✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹',
 body: 'Super Bot WhatsApp',         
 previewType: 1, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `${yt}`}}})
