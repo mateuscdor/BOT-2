@@ -96,12 +96,12 @@ footer: `╭━━〔 *${wm}* 〕━━⬣
 ┃ *PRESIONE ESTE MENSAJE PARA IR AL MENÚ.*
 ┃ *PRESS THIS MESSAGE TO GO TO THE MENU.*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃💫➺ _${usedPrefix}cuentasgatabot | cuentasgb | accounts_
+┃💫➺ _${usedPrefix}cuentas | cuentasgb | accounts_
 ┃💫➺ _${usedPrefix}gruposgb | grupos | groupgb_
 ┃💫➺ _${usedPrefix}listagrupos | grouplist_
 ┃💫➺ _${usedPrefix}estado | heygata | status_
 ┃💫➺ _${usedPrefix}infogata | infobot_
-┃💫➺ _${usedPrefix}creadora | owner_
+┃💫➺ _${usedPrefix}creador | owner_
 ┃💫➺ _${usedPrefix}velocidad | ping_
 ┃💫➺ _Bot_ 
 ╰━━━━━━━━━━━━━━━━━━━━⬣
