@@ -99,8 +99,8 @@ footer: `╭━━〔 *${wm}* 〕━━⬣
 ┃💫➺ _${usedPrefix}cuentas | cuentasgb | accounts_
 ┃💫➺ _${usedPrefix}gruposgb | grupos | groupgb_
 ┃💫➺ _${usedPrefix}listagrupos | grouplist_
-┃💫➺ _${usedPrefix}estado | heygata | status_
-┃💫➺ _${usedPrefix}infogata | infobot_
+┃💫➺ _${usedPrefix}estado | heybot | status_
+┃💫➺ _${usedPrefix}info | infobot_
 ┃💫➺ _${usedPrefix}creador | owner_
 ┃💫➺ _${usedPrefix}velocidad | ping_
 ┃💫➺ _Bot_ 
