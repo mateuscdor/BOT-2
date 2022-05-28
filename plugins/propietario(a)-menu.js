@@ -82,7 +82,7 @@ let username = conn.getName(who)
 
 
 const listMessage = {
-text: `💗 *¡HOLA | HI!* ${username}`,
+text: `🔰 *¡HOLA | HI!* ${username}`,
 footer: `╭━━〔 *${wm}* 〕━━⬣
 ┃⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️
 ┃✪ *EXPERIENCIA | EXP ➺ ${exp}*
