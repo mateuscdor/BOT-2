@@ -81,13 +81,13 @@ global.version = vs
 global.gt = '✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹'
 global.gatabot = gt
 
-global.yt = 'NULL'
+global.yt = null
 global.youtube = yt
 
-global.nn = 'NULL'
+global.nn = null
 global.nngrupo = nn
 
-global.nnn = 'NULM'
+global.nnn = null
 global.nnngrupo = nnn
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
