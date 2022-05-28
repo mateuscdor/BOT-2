@@ -3,7 +3,7 @@ const data = global.owner.filter(([id, isCreator]) => id && isCreator)
 this.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
   
 let pp = './media/menus/Menu2.jpg'
-let str = `🧡 *Eso son los contactos para ti.*\n💜 *That's the contacts for you.*`
+let str = `• *Eso son los contactos para ti.*\n• *That's the contacts for you.*`
 
 conn.sendHydrated(m.chat, str, wm, pp, 'http://wa.me/+51996089079', 'ᵛⁱᵖ', null, null, [
 ['𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣', '.infobot'],
