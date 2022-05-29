@@ -72,7 +72,7 @@ let str = `
 *<𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆ℕ 𝔻𝔼𝕃 𝔹𝕆𝕋/>*
 
 ° ඬ ⃟ 💟 _${usedPrefix}grupos_
-° ඬ ⃟ 💟 _${usedPrefix}cuentasgatabot_
+° ඬ ⃟ 💟 _${usedPrefix}cuentas_
 ° ඬ ⃟ 💟 _${usedPrefix}estado_
 ° ඬ ⃟ 💟 _${usedPrefix}infobot_
 ° ඬ ⃟ 💟 _${usedPrefix}donar_
@@ -97,8 +97,6 @@ let str = `
 
 ° ඬ⃟☑️ _${usedPrefix}enable *welcome*_
 ° ඬ⃟☑️ _${usedPrefix}disable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}enable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}disable *modohorny*_
 ° ඬ⃟☑️ _${usedPrefix}enable *antilink*_
 ° ඬ⃟☑️ _${usedPrefix}disable *antilink*_
 ° ඬ⃟☑️ _${usedPrefix}enable *antilink2*_
