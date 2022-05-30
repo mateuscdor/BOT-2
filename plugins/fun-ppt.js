@@ -1,5 +1,5 @@
 let handler = async (m, { text, usedPrefix }) => {
-let salah = `*_Hola 👋🏻, bienvenido al juego de piedra, papel o tijera_*\n\n*_Opciones Disponibles:_*\n*_piedra, papel o tijera_*\n\n*_${usedPrefix}ppt tijera_*\n\n*_Use las opciones en minusculas como se indica en el ejemplo, no use los _ ni los * para que el Bot lo detecte correctamente_*\n\n_✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹`
+let salah = `*_Hola 👋🏻, bienvenido al juego de piedra, papel o tijera_*\n*_Opciones Disponibles:_*\n*_piedra, papel o tijera_*\n*_${usedPrefix}ppt tijera_*\n*_Use las opciones en minusculas como se indica en el ejemplo, no use los _ ni los * para que el Bot lo detecte correctamente_*\n_✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹`
 if (!text) throw salah
 var astro = Math.random()
 if (astro < 0.34) {
