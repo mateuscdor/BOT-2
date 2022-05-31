@@ -297,7 +297,6 @@ Cargando info...
 ❖	n͓̽o͓̽ ͓̽e͓̽d͓̽i͓̽t͓̽e͓̽s͓̽ ͓̽o͓̽ ͓̽s͓̽e͓̽r͓̽a͓̽s͓̽ ͓̽r͓̽e͓̽p͓̽o͓̽r͓̽t͓̽a͓̽d͓̽o͓̽ ͓̽
 ❖	📲 CORP• G◉ ™️ 💙❤️💛 ❖
 ❖	#NIDOSpokemonGo
-by  ${await this.getName(m.sender)}
 `.trim()   
 conn.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
