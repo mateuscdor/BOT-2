@@ -1,4 +1,6 @@
-let handler = async m => m.reply(`
+import fs from 'fs'
+let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
+let text = `
 Cargando info...
 *🚨 NIDOS   MUNDIALES 🚨*
 *📲 CORP• G◉ ™️ 💙❤️💛 ❖*
@@ -295,10 +297,13 @@ Cargando info...
 ❖	n͓̽o͓̽ ͓̽e͓̽d͓̽i͓̽t͓̽e͓̽s͓̽ ͓̽o͓̽ ͓̽s͓̽e͓̽r͓̽a͓̽s͓̽ ͓̽r͓̽e͓̽p͓̽o͓̽r͓̽t͓̽a͓̽d͓̽o͓̽ ͓̽
 ❖	📲 CORP• G◉ ™️ 💙❤️💛 ❖
 ❖	#NIDOSpokemonGo
-
-`.trim()) 
-handler.help = ['Nidos']
-handler.tags = ['info']
-handler.command = /^Nidos$/i
-
-module.exports = handler
+`.trim()   
+conn.reply(m.chat, text, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
+title: '𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾𝙽 - 𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝚁𝙱𝙾𝚃',
+body: 'ʙᴏᴛ',         
+previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
+sourceUrl: `http://wa.me/+51996089079`}}})   
+}
+handler.command = /^(nidos)/i
+export default handler
