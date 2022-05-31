@@ -300,10 +300,10 @@ Cargando info...
 `.trim()   
 conn.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾𝙽 - 𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝚁𝙱𝙾𝚃',
-body: 'ʙᴏᴛ',         
+title: '𝐍𝐈𝐃𝐎𝐒.',
+body: '✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹',         
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `http://wa.me/+51996089079`}}})   
 }
-handler.command = /^(nidos)/i
+handler.command = /^(Nidos)/i
 export default handler
