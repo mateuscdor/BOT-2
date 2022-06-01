@@ -9,9 +9,9 @@ let users = global.db.data.users
 let username = conn.getName(who)
 conn.reply(m.chat, `${eg}❗ 𝗨𝗦𝗨𝗔𝗥𝗜𝗢 𝗕𝗔𝗡𝗘𝗔𝗗𝗢 ❗\n\n➖Registrado en blocklist .\n➖No accede a comandos .\n➖BOT ignora a :\n      ${username}. \n\n*𝙰𝚃𝚃𝙴: 𝗕𝗢𝗧 ${gt}*`, m)
 }
-handler.help = ['banuser']
+handler.help = ['ban']
 handler.tags = ['owner']
-handler.command = /^banuser$/i
+handler.command = /^ban$/i
 handler.group = true
 handler.admin = true 
 export default handler
