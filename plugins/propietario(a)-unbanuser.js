@@ -12,9 +12,9 @@ let username = conn.getName(who)
 
 conn.reply(m.chat, ``${eg}❗ 𝗨𝗦𝗨𝗔𝗥𝗜𝗢 𝗗𝗘𝗦𝗕𝗔𝗡𝗘𝗔𝗗𝗢 ❗\n\n ✓ Acceso al BOT .\n✓ Grupos y chat pv.\n✓ Disfrute del BOT:\n      ${username}. \n\n*𝙰𝚃𝚃𝙴: 𝗕𝗢𝗧 ${gt}*`, m)
 }
-handler.help = ['unbanuser']
+handler.help = ['unban']
 handler.tags = ['owner']
-handler.command = /^unbanuser$/i
+handler.command = /^unban$/i
 handler.group = true
 handler.admin = true 
 export default handler
