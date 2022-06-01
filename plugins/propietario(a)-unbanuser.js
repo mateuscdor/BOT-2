@@ -10,7 +10,7 @@ users[who].banned = false
 let mentionedJid = [who]
 let username = conn.getName(who)
 
-conn.reply(m.chat, `${eg}𝙀𝙇/𝙇𝘼 𝙐𝙎𝙐𝘼𝙍𝙄𝙊(𝘼) 𝙁𝙐𝙀 𝘿𝙀𝙎𝘽𝘼𝙉𝙀𝘼𝘿𝙊(𝘼) nombre ${username} 🤩\n𝙋𝙊𝘿𝙍𝘼 𝙐𝙎𝘼𝙍 𝘼 ${gt}\n\n𝙏𝙃𝙀 𝙐𝙎𝙀𝙍 𝙒𝘼𝙎 𝙐𝙉𝘽𝘼𝙉 🤠\n𝙐𝙎𝙀 ✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹`, m)
+conn.reply(m.chat, ``${eg}❗ 𝗨𝗦𝗨𝗔𝗥𝗜𝗢 𝗗𝗘𝗦𝗕𝗔𝗡𝗘𝗔𝗗𝗢 ❗\n\n ✓ Acceso al BOT .\n✓ Grupos y chat pv.\n✓ Disfrute del BOT:\n      ${username}. \n\n*𝙰𝚃𝚃𝙴: 𝗕𝗢𝗧 ${gt}*`, m)
 }
 handler.help = ['unbanuser']
 handler.tags = ['owner']
