@@ -9,9 +9,9 @@ conn.reply(m.chat, `${eg} *✅@${who.split`@`[0]} 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 
 contextInfo: {
 mentionedJid: [who]
 }})}
-handler.help = ['addprem <@user>']
+handler.help = ['VIP <@user>']
 handler.tags = ['owner']
-handler.command = /^(add|\+)prem$/i
+handler.command = /^(V|\+)IP$/i
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
