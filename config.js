@@ -92,6 +92,9 @@ global.nngrupo = nn
 global.nnn = null
 global.nnngrupo = nnn
 
+global.paypal = 'https://paypal.me/KeygenVIP'
+global.donar = paypal
+
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
