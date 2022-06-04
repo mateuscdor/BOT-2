@@ -83,6 +83,9 @@ global.version = vs
 global.gt = '✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹'
 global.gatabot = gt
 
+global.md = 'http://wa.me/+51996089079'
+global.gatabot = md
+
 global.yt = null
 global.youtube = yt
 
