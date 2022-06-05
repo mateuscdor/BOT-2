@@ -8,7 +8,7 @@ const split = authHeader.split(' ') // (1) [ 'bearer', 'token' ]
 const token = split[1] // (2) token
 //if (command == (' ') '') { 
 //let txt = ``
-if (command == token) {
+if (command == token'whats') {
  m.reply(`Resultado 1`) 
 }
   
