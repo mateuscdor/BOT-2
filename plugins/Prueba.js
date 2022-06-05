@@ -15,13 +15,13 @@ if (command == 'whats') {
       
     }}
  
-handler.help = handler.command = ['juego1', 'juego2', 'juego3']
-handler.tags = ['Prueba']
+//handler.help = handler.command = ['juego1', 'juego2', 'juego3']
+//handler.tags = ['Prueba']
 
-export default handler  
-//handler.help = ['juego1 whats', 'juego2 whatsat', 'juego3 whatsapp'].map(v => v + ' Texto')
-//handler.tags = ['ejemplo']
-//handler.command = ['juego1', 'juego2 whatsat', 'juego3 whatsapp']
+//export default handler  
+handler.help = ['juego1 whats', 'juego2 whatsat', 'juego3 whatsapp'].map(v => v + ' Texto')
+handler.tags = ['ejemplo']
+handler.command = ['juego1', 'juego2', 'juego3']
 
 //export default  handler
   
