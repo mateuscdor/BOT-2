@@ -7,7 +7,7 @@ if (!text) throw `Lo uso mal, vuelva a intentar.`
 let [l] = text.split`|`
 if (!l) l = ''
 
-if (command == `${l.split}`'whats') {
+if (command == `${l.split}whats`) {
  m.reply(`Resultado 1`) 
 }
   
