@@ -24,7 +24,7 @@ export default handler
 //handler.tags = ['ejemplo']
 //handler.command = ['juego1', 'juego2 whatsat', 'juego3 whatsapp']
 
-export default  handler
+//export default  handler
   
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
