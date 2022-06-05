@@ -9,12 +9,12 @@ if (command == 'juego1') {
   
   if (command == 'juego2') {
  if (text == 'whatsat') {
- m.reply(`Resultado 1`) }
+ m.reply(`Resultado 2`) }
 }  
     
     if (command == 'juego3') {
  if (text == 'whatsapp') {
- m.reply(`Resultado 1`) }
+ m.reply(`Resultado 3`) }
 }
 }
  
