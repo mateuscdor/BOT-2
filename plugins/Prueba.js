@@ -9,7 +9,7 @@ let handler = async (m, { command, text }) => {
  
 //if (command == (' ') '') { 
 let txt = ''
-if (command == txt + 'whats') {
+if (command == `${txt}whats`) {
  m.reply(`Resultado 1`) 
 }
   
