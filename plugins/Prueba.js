@@ -1,5 +1,5 @@
 let handler = async (m, { command, text }) => { 
-//if (!text) throw `Lo uso mal, vuelva a intentar.` 
+if (!text) throw `Lo uso mal, vuelva a intentar.` 
 //let cadena = 'juego1 whats'
 //let id  = cadena.split(' ')
 //let id2 = `whats`
@@ -7,7 +7,7 @@ let handler = async (m, { command, text }) => {
 let [l] = text.split`|`
 if (!l) l = ''
 
-if (command == l.split'whats') {
+if (command == `${l.split}`'whats') {
  m.reply(`Resultado 1`) 
 }
   
