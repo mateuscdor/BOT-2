@@ -1,5 +1,5 @@
 let handler = async (m, { command, text }) => { 
-if (!text) = throw `Lo uso mal, vuelva a intentar.` 
+//if (!text) = throw `Lo uso mal, vuelva a intentar.` 
 //let a = `whats`
 //let b = `whatsat`
 //let c = `whatsapp`
