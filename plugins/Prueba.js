@@ -1,16 +1,16 @@
-let handler = async (m, { command }) => { 
-throw `Lo uso mal, vuelva a intentar.` 
+let handler = async (m, { command, text }) => { 
+if (!text) throw `Lo uso mal, vuelva a intentar.` 
 
-if (command == 'juego1') {
+if (command == 'juego1' (!text)) {
  m.reply(`Resultado 1`) 
 }
   
-  if (command == 'juego2') {
+  if (command == 'juego2' (!text)) {
     m.reply(`Resultado 2`) 
     
   }   
     
-    if (command == 'juego3') {
+    if (command == 'juego3' (!text)) {
        m.reply(`Resultado 3`) 
       
     }}
