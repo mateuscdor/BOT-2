@@ -1,23 +1,23 @@
 let handler = async (m, { command, text }) => { 
 //if (!text) throw `Lo uso mal, vuelva a intentar.` 
 
-if (command == 'juego1 whats') {
+if (command == 'juego1whats') {
  m.reply(`Resultado 1`) 
 }
   
-  if (command == 'juego2 whatsat') {
+  if (command == 'juego2whatsat') {
     m.reply(`Resultado 2`) 
     
   }   
     
-    if (command == 'juego3 whatsapp') {
+    if (command == 'juego3whatsapp') {
        m.reply(`Resultado 3`) 
       
     }}
   
 handler.help = ['juego1 whats', 'juego2 whatsat', 'juego3 whatsapp'].map(v => v + ' Texto')
 handler.tags = ['ejemplo']
-handler.command = ['juego1 whats', 'juego2 whatsat', 'juego3 whatsapp']
+handler.command = ['juego1whats', 'juego2whatsat', 'juego3whatsapp']
 
 export default  handler
   
