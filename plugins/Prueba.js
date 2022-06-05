@@ -9,7 +9,7 @@ if (!text) = throw `Lo uso mal, vuelva a intentar.`
  
 //if (command == (' ') '') { 
 let txt = ''
-if (command == txt 'whats') {
+if (command == txt + 'whats') {
  m.reply(`Resultado 1`) 
 }
   
