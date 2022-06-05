@@ -13,7 +13,7 @@ if (command == 'juego1') {
     if (command == 'juego3') {
        m.reply(`Resultado 3`) 
       
-    }
+    }}
   
 handler.help = ['juego1', 'juego2', 'juego3'].map(v => v + '@ | nombre')
 handler.tags = ['ejemplo']
