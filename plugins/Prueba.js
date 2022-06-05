@@ -1,22 +1,25 @@
 let handler = async (m, { command, text }) => { 
 if (!text) = throw `Lo uso mal, vuelva a intentar.` 
+let a = `whats`
+let b = `whatsat`
+let c = `whatsapp`
  
-if (command == 'whats') { 
+if (command == a) { 
 //if (command == 'juego1 whats') {
  m.reply(`Resultado 1`) 
 }
   
-  if (command == 'juego2 whatsat') {
+  if (command == b) {
     m.reply(`Resultado 2`) 
     
   }   
     
-    if (command == 'juego3 whatsapp') {
+    if (command == c) {
        m.reply(`Resultado 3`) 
       
     }}
  
-handler.help = handler.command = ['juego1', 'juego2 whatsat', 'juego3 whatsapp']
+handler.help = handler.command = ['juego1', 'juego2', 'juego3']
 handler.tags = ['Prueba']
 
 export default handler  
