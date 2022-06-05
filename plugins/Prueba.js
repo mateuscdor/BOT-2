@@ -1,5 +1,5 @@
 let handler = async (m, { command, text }) => { 
-if (!text) throw `Lo uso mal, vuelva a intentar.` 
+//if (!text) throw `Lo uso mal, vuelva a intentar.` 
 
 if (command == 'juego1 whats') {
  m.reply(`Resultado 1`) 
