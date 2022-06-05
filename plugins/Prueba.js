@@ -15,7 +15,7 @@ if (command == 'juego1') {
       
     }
   
-handler.help = ['juego1', 'juego1', 'juego1'].map(v => v + ' @ | nombre')
+handler.help = ['juego1', 'juego2', 'juego3'].map(v => v + ' @ | nombre')
 handler.tags = ['ejemplo']
 handler.command = ['juego1', 'juego2', 'juego3']
 handler.exp = false
