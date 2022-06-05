@@ -8,14 +8,15 @@ if (command == 'juego1') {
 }
   
   if (command == 'juego2') {
-    m.reply(`Resultado 2`) 
-    
-  }   
+ if (text == 'whatsat') {
+ m.reply(`Resultado 1`) }
+}  
     
     if (command == 'juego3') {
-       m.reply(`Resultado 3`) 
-      
-    }}
+ if (text == 'whatsapp') {
+ m.reply(`Resultado 1`) }
+}
+}
  
 //handler.help = handler.command = ['juego1', 'juego2', 'juego3']
 //handler.tags = ['Prueba']
