@@ -8,7 +8,8 @@ if (!text) = throw `Lo uso mal, vuelva a intentar.`
 //const token = split[1]  (2) token
  
 //if (command == (' ') '') { 
-if (command == ' whats') {
+let txt = ''
+if (command == txt 'whats') {
  m.reply(`Resultado 1`) 
 }
   
