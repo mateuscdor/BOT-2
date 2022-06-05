@@ -23,7 +23,7 @@ handler.help = ['juego1', 'juego2', 'juego3'].map(v => v + ' Texto')
 handler.tags = ['ejemplo']
 handler.command = ['juego1', 'juego2', 'juego3']
 
-//export default  handler
+export default  handler
   
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
