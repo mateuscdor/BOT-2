@@ -32,7 +32,7 @@ if (command == 'juego1') {
 //export default handler  
 handler.help = ['juego1', 'juego2', 'juego3']
 handler.tags = ['ejemplo']
-handler.command = ['go','juego1', 'juego2', 'juego3'] //'whats', 'whatsat', 'whatsapp'
+handler.command = ['go', 'juego1', 'juego2', 'juego3'] //'whats', 'whatsat', 'whatsapp'
 
 export default  handler
   
