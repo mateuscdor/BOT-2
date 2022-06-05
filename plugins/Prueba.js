@@ -1,15 +1,16 @@
 let handler = async (m, { command, text }) => { 
-//if (!text) = throw `Lo uso mal, vuelva a intentar.` 
+if (!text) = throw `Lo uso mal, vuelva a intentar.` 
 //let a = `whats`
 //let b = `whatsat`
 //let c = `whatsapp`
 //const authHeader = 'bearer token'
 //const split = authHeader.split(' ')  (1) [ 'juego1', 'whats' ]
 //const token = split[1]  (2) token
- 
+ const authHeader = 'juego1 whats'
+ const split = authHeader.split(' ')
 //if (command == (' ') '') { 
-let txt = ''
-if (command == `${txt}whats`) {
+//let txt = ``
+if (command == split) {
  m.reply(`Resultado 1`) 
 }
   
