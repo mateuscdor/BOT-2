@@ -21,7 +21,7 @@ if (command == 'whats') {
 //export default handler  
 handler.help = ['juego1', 'juego2', 'juego3'].map(v => v + ' Texto')
 handler.tags = ['ejemplo']
-handler.command = ['juego1', 'juego2', 'juego3']
+handler.command = ['juego1 whats', 'juego2', 'juego3']
 
 export default  handler
   
