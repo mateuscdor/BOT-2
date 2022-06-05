@@ -5,7 +5,7 @@ if (!text) throw `Lo uso mal, vuelva a intentar.`
 let id2 = `whats`
 //`${id.split` `[0]}`
 
-if (command == `${id2.split` `[0]}`) {
+if (command == id2.split` `[0]}) {
  m.reply(`Resultado 1`) 
 }
   
