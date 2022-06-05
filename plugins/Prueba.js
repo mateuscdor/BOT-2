@@ -1,9 +1,10 @@
 let handler = async (m, { command, text }) => { 
 if (!text) throw `Lo uso mal, vuelva a intentar.` 
+let pp = './Menu2.jpg'
 //let id = text.join(' ')
 if (command == 'go') {
 
-conn.sendHydrated(m.chat, `Respuesta 1`, null, null, null, null, null, null, [
+conn.sendHydrated(m.chat, `Respuesta 1`, null, pp, null, null, null, null, [
 ['Juego 1', `.juego1 whats`],
 ['Juego 2', `.juego2 whatsat`],
 ['Juego 3', `juego3 whatsapp`]
