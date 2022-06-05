@@ -1,9 +1,10 @@
 let handler = async (m, { command, text }) => { 
 if (!text) throw `Lo uso mal, vuelva a intentar.` 
-let id = text.join(' ')
+//let id = text.join(' ')
 
-if (command == 'juego1'id) {
- m.reply(`Resultado 1`) 
+if (command == 'juego1') {
+ if (text == 'whats') {
+ m.reply(`Resultado 1`) }
 }
   
   if (command == 'juego2') {
