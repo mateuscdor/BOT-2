@@ -1,4 +1,4 @@
-let handler = async (m, { conn, command, text, usedPrefix }) => { 
+let handler = async (m, { command }) => { 
 if (!text) throw `Lo uso mal, vuelva a intentar.` 
 
 if (command == 'juego1') {
@@ -15,9 +15,9 @@ if (command == 'juego1') {
       
     }
   
-handler.help = ['juego1', 'juego2', 'juego3'].map(v => v + ' @ | nombre')
+handler.help = ['juego1', 'juego2', 'juego3'].map(v => v + '@ | nombre')
 handler.tags = ['ejemplo']
 handler.command = ['juego1', 'juego2', 'juego3']
-handler.exp = false
-export default handler
+
+export default  handler
   
