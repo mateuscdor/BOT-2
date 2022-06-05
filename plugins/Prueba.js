@@ -6,7 +6,7 @@ let handler = async (m, { command, text }) => {
 //const authHeader = 'bearer token'
 //const split = authHeader.split(' ')  (1) [ 'juego1', 'whats' ]
 //const token = split[1]  (2) token
- const authHeader = 'juego1 whats'
+ const authHeader = 'whats'
  const split = authHeader.split(' ')
 //if (command == (' ') '') { 
 //let txt = ``
