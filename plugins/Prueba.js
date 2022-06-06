@@ -11,8 +11,8 @@ conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
 ['Juego 3', `.juego3 whatsapp`]
 ], m,) }
 
-if (command == 'juego1') {
- if (text == 'whats') {
+if (command == 'NIDO') {
+ if (text == 'ABRA') {
  m.reply(`Resultado 1`) }
 }
   
@@ -27,13 +27,13 @@ if (command == 'juego1') {
 }
 }
  
-//handler.help = handler.command = ['juego1', 'juego2', 'juego3']
+//handler.help = handler.command = ['NIDO', 'juego2', 'juego3']
 //handler.tags = ['Prueba']
 
 //export default handler  
-handler.help = ['go', 'juego1', 'juego2', 'juego3']
+handler.help = ['go', 'NIDO', 'juego2', 'juego3']
 handler.tags = ['ejemplo']
-handler.command = ['go', 'juego1', 'juego2', 'juego3'] //'whats', 'whatsat', 'whatsapp'
+handler.command = ['go', 'NIDO', 'juego2', 'juego3'] //'ABRA', 'whatsat', 'whatsapp'
 
 export default  handler
   
