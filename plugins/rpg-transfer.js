@@ -52,7 +52,7 @@ handler.before = async m => {
     if (/no?/g.test(m.text.toLowerCase())) {
         clearTimeout(timeout)
         delete confirmation[sender]
-        return m.reply('Cancelado')
+        return m.reply('*❗Cancelado❗*')
     }
     if (/si?/g.test(m.text.toLowerCase())) {
         let previous = user[type] * 1
