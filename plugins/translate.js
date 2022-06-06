@@ -21,6 +21,6 @@ tld,
 to: defaultLang, })
 } finally {
 m.reply('*Traducción:* ' +  result[0]) }}
-handler.command = /^(tr(anslate)|traducir?)$/i
+handler.command = /^(tr(ad)|trad?)$/i
 handler.fail = null
 module.exports = handler
