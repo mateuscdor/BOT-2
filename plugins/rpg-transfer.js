@@ -22,7 +22,7 @@ async function handler(m, { conn, args, usedPrefix, command }) {
     const count = Math.min(Number.MAX_SAFE_INTEGER, Math.max(1, (isNumber(args[1]) ? parseInt(args[1]) : 1))) * 1
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : args[2] ? (args[2].replace(/[@ .+-]/g, '') + '@s.whatsapp.net') : ''
     if (!who) return m.reply('✳️ Taguea al usuario')
-    if (!(who in global.db.data.users)) return m.reply(`✳️ Usuario ${who} no está en la  database`)
+    if (!(who in global.db.data.users)) return m.reply(`*✳️ Usuario ${who} no está en la  database.*`)
     if (user[type] * 1 < count) return m.reply(`✳️  *${type}*  insuficiente para transferir`)
     let confirm = `
 ¿Está seguro de que desea transferir *${count}* ${type} a  *@${(who || '').replace(/@s\.whatsapp\.net/g, '')}* ? 
@@ -37,7 +37,7 @@ Tienes  *60* s
         message: m,
         type,
         count,
-        timeout: setTimeout(() => (m.reply('Se acabó el tiempo'), delete confirmation[m.sender]), 60 * 1000)
+        timeout: setTimeout(() => (m.reply('*❗Se acabó el tiempo❗*'), delete confirmation[m.sender]), 60 * 1000)
     }
 }
 
