@@ -6,13 +6,13 @@ if (command == 'go') {
 let ejemplo = `Respuesta 1`
 
 conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
-['NIDO', `.NIDO ABRA`],
+['NIDO', `.nido abra`],
 ['Juego 2', `.juego2 whatsat`],
 ['Juego 3', `.juego3 whatsapp`]
 ], m,) }
 
-if (command == 'NIDO') {
- if (text == 'ABRA') {
+if (command == 'nido') {
+ if (text == 'abra') {
  m.reply(`Resultado 1`) }
 }
   
@@ -33,7 +33,7 @@ if (command == 'NIDO') {
 //export default handler  
 handler.help = ['go', 'NIDO', 'juego2', 'juego3']
 handler.tags = ['ejemplo']
-handler.command = ['go', 'NIDO', 'juego2', 'juego3'] //'ABRA', 'whatsat', 'whatsapp'
+handler.command = ['go', 'nido', 'juego2', 'juego3'] //'ABRA', 'whatsat', 'whatsapp'
 
 export default  handler
   
