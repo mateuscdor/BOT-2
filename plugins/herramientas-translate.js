@@ -21,7 +21,8 @@ result = await translate(`${text}`, {
 tld,
 to: defaultLang, })
 } finally {
-m.reply('*🔰 Traducción:* ' +  result[0]) }}
+m.reply('*🔰 Traducción:* 
+' +  result[0]) }}
 handler.help = ['translate', 'trad']
 handler.tags = ['General']
 handler.command = /^(tr(anslate)|trad?)$/i
