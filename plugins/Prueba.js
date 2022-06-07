@@ -7,8 +7,8 @@ let ejemplo = `Respuesta 1`
 
 conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
 ['Caterpie', `.nido abra`],
-['Juego 2', `.juego2 whatsat`],
-['Juego 3', `.juego3 whatsapp`]
+['Ekans', `.juego2 whatsat`],
+['Pikachu', `.juego3 whatsapp`]
 ], m,) }
 
 if (command == 'nido') {
