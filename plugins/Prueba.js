@@ -14,6 +14,7 @@ conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
 if (command == 'nido') {
  if (text == 'caterpie') {
  m.reply(`Resultado 1`) }
+ m.reply(`Resultado win`) }
 }
   
   if (command == 'juego2') {
