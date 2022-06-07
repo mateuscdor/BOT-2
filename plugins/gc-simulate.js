@@ -4,7 +4,7 @@ if (!event) return await conn.sendButton(m.chat, `*EJEMPLO:*
 ${usedPrefix + command} welcome @user
 ${usedPrefix + command} bye @user
 ${usedPrefix + command} promote @user
-${usedPrefix + command} demote @user`.trim(), wm, null, [['WELCOME', '#simulate welcome'], ['BYE', '#simulate bye']])
+${usedPrefix + command} demote @user`.trim(), wm, null, [['*𝗪𝗘𝗟𝗖𝗢𝗠𝗘*', '#simulate welcome'], ['*𝗔𝗗𝗜𝗢𝗦*', '#simulate bye']])
 let mentions = text.replace(event, '').trimStart()
 let who = mentions ? conn.parseMention(mentions) : []
 let part = who.length ? who : [m.sender]
