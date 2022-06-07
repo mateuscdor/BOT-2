@@ -14,5 +14,5 @@ mentionedJid: [m.sender]
 handler.help = ['admin', 'adm'].map(v => v + ' <teks>')
 handler.tags = ['info']
 handler.exp = 25 
-handler.command = /^(admin|admin-owner|)$/i 
+handler.command = /^(admin|adm|)$/i 
 export default handler
