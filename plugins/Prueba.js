@@ -6,7 +6,7 @@ if (command == 'go') {
 let ejemplo = `Respuesta 1`
 
 conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
-['Caterpie', `.nido caterpie`],
+['Caterpie', `.Nido Caterpie`],
 ['Ekans', `.juego2 whatsat`],
 ['Pikachu', `.juego3 whatsapp`]
 ], m,) }
