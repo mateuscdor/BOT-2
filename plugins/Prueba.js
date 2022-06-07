@@ -11,8 +11,8 @@ conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
 ['Pikachu', `.juego3 whatsapp`]
 ], m,) }
 
-if (command == 'nido') {
- if (text == 'caterpie') {
+if (command == 'Nido') {
+ if (text == 'Caterpie') {
  m.reply(`Resultado 1`) }
 }
   
