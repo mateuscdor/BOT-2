@@ -6,13 +6,13 @@ if (command == 'go') {
 let ejemplo = `Respuesta 1`
 
 conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
-['Caterpie', `.Nido Caterpie`],
+['Caterpie', `.nido caterpie`],
 ['Ekans', `.juego2 whatsat`],
 ['Pikachu', `.juego3 whatsapp`]
 ], m,) }
 
-if (command == 'Nido') {
- if (text == 'Caterpie') {
+if (command == 'nido') {
+ if (text == 'caterpie') {
  m.reply(`Resultado 1`) }
 }
   
