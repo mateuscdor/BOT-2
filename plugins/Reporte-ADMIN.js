@@ -7,7 +7,7 @@ conn.reply('51938089515@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks,
 contextInfo: {
 mentionedJid: [m.sender]
 }})
-  m.reply(`╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n*❗ 𝐑𝐄𝐏𝐎𝐑𝐓𝐄 𝐄𝐗𝐈𝐓𝐎𝐒𝐎 ❗ \n *• El reporte ha sido enviado a mí Creador.*`)
+  m.reply(`♻️𝐒𝐀𝐓𝐈𝐒𝐅𝐀𝐂𝐓𝐎𝐑𝐈𝐎. | \n\n❗ 𝐑𝐄𝐏𝐎𝐑𝐓𝐄 𝐄𝐗𝐈𝐓𝐎𝐒𝐎 ❗ \n *• El reporte ha sido enviado a mí Creador.*`)
 
 }
 
