@@ -21,7 +21,7 @@ tld,
 to: defaultLang, })
 } finally {
 m.reply('*Traducción:* ' +  result[0]) }}
-handler.help = ['translate', 'traducir']
+handler.help = ['translate', 'trad']
 handler.tags = ['General']
-handler.command = /^(tr(anslate)|traducir?)$/i
+handler.command = /^(tr(anslate)|trad?)$/i
 export default handler
