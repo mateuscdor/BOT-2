@@ -1,4 +1,3 @@
-
 import translate from 'translate-google-api'
 const defaultLang = 'es'
 const tld = 'cn'
