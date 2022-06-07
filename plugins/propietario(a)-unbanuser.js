@@ -7,7 +7,7 @@ if (!who) throw `${mg}❗𝗘𝘁𝗶𝗾𝘂𝗲𝘁𝗮 𝗮 𝘂𝗻 𝘂𝘀
 let users = global.db.data.users
 
 let username = conn.getName(who)
-conn.reply(m.chat, `${eg}❗ 𝗨𝗦𝗨𝗔𝗥𝗜𝗢 𝗗𝗘𝗦𝗕𝗔𝗡𝗘𝗔𝗗𝗢 ❗\n\n➖Registrado en blocklist .\n➖No accede a comandos .\n➖BOT ignora a :\n      ${username}. \n\n*𝙰𝚃𝚃𝙴: 𝗕𝗢𝗧 ${gt}*`, m)
+conn.reply(m.chat, `${eg}❗ 𝗨𝗦𝗨𝗔𝗥𝗜𝗢 𝗗𝗘𝗦𝗕𝗔𝗡𝗘𝗔𝗗𝗢 ❗\n\n *✓ Acceso al BOT .*\n *✓ Grupos y chat pv.*\n *✓ Disfrute del BOT:*\n      ${username}. \n\n*𝙰𝚃𝚃𝙴: 𝗕𝗢𝗧 ${gt}*`, m)
 }
 
 handler.help = ['unban']
