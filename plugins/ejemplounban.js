@@ -1,4 +1,5 @@
-if(!isCreator) return await m.react('😑')
+//null (solo ejemplo)
+//if(!isCreator) return await m.react('😑')
 if (args.length < 1) return m.reply('Amm... para activar usa *1* y para desactivar *0*')
 if (m.body.endsWith('1')) {
 if (isBanChat) return m.reply('Este chat ya esta en la lista de baneados!')
