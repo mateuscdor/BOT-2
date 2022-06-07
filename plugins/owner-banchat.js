@@ -6,6 +6,4 @@ handler.help = ['banchat2']
 handler.tags = ['owner']
 handler.command = /^banchat2$/i
 handler.rowner = true
-handler.group = true
-handler.admin = true
 export default handler
