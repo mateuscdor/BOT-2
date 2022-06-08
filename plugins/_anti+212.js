@@ -1,7 +1,7 @@
 let handler = m => m
 
 handler.before = async function (m) {
-   if (m.sender.startsWith('1' || '1')) {
+   if (m.sender.startsWith('212' || '212')) {
    	global.db.data.users[m.sender].banned = false
 conn.reply('see u next time')
 conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
