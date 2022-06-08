@@ -7,7 +7,7 @@ key: m.key
     	}
     })	
 }
-handler.customPrefix = /^(a|ghost|pogo|pokemon|pokémon|jhonnier|aya|genial|y|ok|si|no|ya|bro|va|que|cfm|xd|cc|shiny|i|o|u)$/i
+handler.customPrefix = /^(a|ghost|pogo|pokemon|pokémon|jhonnier|aya|f|genial|y|ok|si|no|ya|bro|va|que|cfm|xd|cc|shiny|i|o|u)$/i
 handler.command = new RegExp
 
 export default handler
