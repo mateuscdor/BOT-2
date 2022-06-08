@@ -1,4 +1,3 @@
-// Jangan buly saya om saya cuma bercanda:)
 let handler = async (m, { conn, text }) => {
   conn.reply(m.chat, `
 *Pertanyaan:* ${m.text}
