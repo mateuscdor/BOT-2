@@ -1,3 +1,4 @@
+import fetch from 'node-fetch'
 let handler = async (m, {text, usedPrefix, command, conn}) => {
   if (!text) throw `Contoh penggunaan ${usedPrefix}${command} Minecraft`
   
