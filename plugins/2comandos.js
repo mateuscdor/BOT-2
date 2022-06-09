@@ -23,7 +23,7 @@ if (command == 'nido1') {
  m.reply(`Resultado 2`) }
 }  
     
-    if (command == 'juego33') {
+    if (command == 'juego3') {
  if (text == 'whatsapp33') {
  m.reply(`Resultado 3`) }
 }
