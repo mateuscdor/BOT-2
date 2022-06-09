@@ -33,9 +33,9 @@ if (command == 'nido1') {
 //handler.tags = ['Prueba']
 
 //export default handler  
-handler.help = ['abc', 'NIDO1', 'juego22', 'juego33']
+handler.help = ['abc', 'NIDO1', 'juego22', 'juego3']
 handler.tags = ['ejemplo']
-handler.command = ['abc', 'nido1', 'juego22', 'juego33'] //'ABRA', 'whatsat', 'whatsapp'
+handler.command = ['abc', 'nido1', 'juego22', 'juego3'] //'ABRA', 'whatsat', 'whatsapp'
 
 export default  handler
   
