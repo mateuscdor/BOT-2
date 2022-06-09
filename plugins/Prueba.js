@@ -13,12 +13,12 @@ conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
 
 if (command == 'nido') {
  if (text == 'caterpie') {
- m.reply(`Resultado 1`) }
+ m.reply(`Resultado 1`) (`hola`) }
 }
   
   if (command == 'juego2') {
  if (text == 'whatsat') {
- m.reply(`Resultado 2` `hola`) }
+ m.reply(`Resultado 2`) }
 }  
     
     if (command == 'juego3') {
