@@ -18,7 +18,7 @@ if (command == 'nido') {
   
   if (command == 'juego2') {
  if (text == 'whatsat') {
- m.reply(`Resultado 2`) }
+ m.reply(`Resultado 2``hola`) }
 }  
     
     if (command == 'juego3') {
