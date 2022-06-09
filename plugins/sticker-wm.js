@@ -21,4 +21,5 @@ handler.help = ['wm <packname>|<author>']
 handler.tags = ['sticker']
 handler.command = /^wm$/i
 handler.premium = true
+handler.limit = 10
 export default handler
