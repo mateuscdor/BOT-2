@@ -15,7 +15,7 @@ if (command == 'nido') {
  if (text == 'caterpie') {
  await m.reply(`Resultado 1`)
  await m.reply(`Resultado 2`)
- return m.reply(`hola`) }
+ await m.reply(`hola`) }
 }
   
   if (command == 'juego2') {
