@@ -16,7 +16,6 @@ if (command == 'nido') {
  await m.reply(`Resultado 1`)
  return m.reply(`hola`) }
 }
-}
   
   if (command == 'juego2') {
  if (text == 'whatsat') {
