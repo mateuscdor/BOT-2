@@ -1,3 +1,4 @@
+const fs = require('fs');
 let handler = async (m, { command, text }) => { 
 //if (!text) throw `Lo uso mal, vuelva a intentar.` 
 let pp = './Menu2.jpg'
