@@ -19,8 +19,8 @@ ${eg}
 ┃ ${ext}`.trim()
 conn.reply(m.chat, caption, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨',
-body: 'Super Bot WhatsApp',         
+title: '•𝗢𝗪𝗡𝗘𝗥 | ✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹',
+body: 'BOT GESTOR',       
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `https://github.com/GataNina-Li/GataBot-MD`}}})
   
