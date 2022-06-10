@@ -14,7 +14,7 @@ conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
 
 if (command == 'nido1') {
  if (text == 'caterpie1') {
- await conn.reply(m.chat, text, m, {
+ await con.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝐍𝐈𝐃𝐎𝐒.',
 body: '✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹',         
