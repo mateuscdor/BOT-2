@@ -14,12 +14,12 @@ conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
 
 if (command == 'nido1') {
  if (text == 'caterpie1') {
- await m.reply(m.chat, text, m, {
+conn.reply(m.chat, `𝙀𝙎𝙋𝙀𝙍𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙀𝙇 𝘼𝙐𝘿𝙄𝙊 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍\n\n𝙒𝘼𝙄𝙏 𝘼 𝙈𝙊𝙈𝙀𝙉𝙏 𝙁𝙊𝙍 𝙏𝙃𝙀 𝘼𝙐𝘿𝙄𝙊 𝙋𝙇𝙀𝘼𝙎𝙀`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝐍𝐈𝐃𝐎𝐒.',
-body: '✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹',         
-previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
-sourceUrl: `http://wa.me/+51996089079`}}})
+title: 'ABC | ABC',
+body: 'Super Bot WhatsApp',         
+previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
+sourceUrl: `http://wa.me/+51996089079`}}}) 
  await m.reply(`Resultado 2`)
  await m.reply(`hola`) }
 }
