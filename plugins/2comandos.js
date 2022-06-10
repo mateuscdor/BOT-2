@@ -14,7 +14,12 @@ conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
 
 if (command == 'nido1') {
  if (text == 'caterpie1') {
- let pp = './Menu2.jpg'
+ await conn.reply(m.chat, text, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
+title: '𝐍𝐈𝐃𝐎𝐒.',
+body: '✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹',         
+previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
+sourceUrl: `http://wa.me/+51996089079`}}})
  await m.reply(`Resultado 2`)
  await m.reply(`hola`) }
 }
