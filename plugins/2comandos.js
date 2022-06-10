@@ -1,9 +1,7 @@
 import fs from 'fs'
 let handler = async (m, { command, text }) => { 
-//if (!text) throw `Lo uso mal, vuelva a intentar.` 
 let pp = './Menu2.jpg'
-if (command == 'abc') {
-//let id = text.join(' ')
+if (command == 'Nidos') {
 let ejemplo = `Respuesta 1`
 
 conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
@@ -35,13 +33,9 @@ sourceUrl: `http://wa.me/+51996089079`}}})
 }
 }
  
-//handler.help = handler.command = ['NIDO', 'juego2', 'juego3']
-//handler.tags = ['Prueba']
-
-//export default handler  
-handler.help = ['abc', 'NIDO1', 'juego22', 'juego3']
+handler.help = ['Nidos', 'NIDO1', 'juego22', 'juego3']
 handler.tags = ['ejemplo']
-handler.command = ['abc', 'nido1', 'juego22', 'juego3'] //'ABRA', 'whatsat', 'whatsapp'
+handler.command = ['Nidos', 'nido1', 'juego22', 'juego3'] //'ABRA', 'whatsat', 'whatsapp'
 
 export default  handler
   
