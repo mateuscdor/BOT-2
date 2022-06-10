@@ -305,5 +305,5 @@ body: '✦҈͜͡➳👻𝕲𝔥𝔬𝔰𝔱•✓☆ۣۜۜ͜͡🌹',
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `http://wa.me/+51996089079`}}})   
 }
-handler.command = /^(Nidos)/i
+handler.command = /^(Nidos123456)/i
 export default handler
