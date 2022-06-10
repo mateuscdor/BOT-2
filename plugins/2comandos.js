@@ -10,7 +10,7 @@ conn.sendHydrated(m.chat, ejemplo, null, pp, null, null, null, null, [
 ['Ekans', `.juego22 whatsat1`],
 ['Pikachu', `.juego3 whatsapp33`]
 ], m,) }
-
+let pp = './Menu2.jpg'
 if (command == 'nido1') {
  if (text == 'caterpie1') {
  await m.reply(`Resultado 2`)
